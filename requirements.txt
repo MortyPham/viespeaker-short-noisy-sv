@@ -1,0 +1,15 @@
+# Versions used for the paper runs (Python 3, CUDA 12.1 build of PyTorch)
+torch==2.5.1
+torchaudio==2.5.1
+speechbrain==1.0.3
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.7.2
+seaborn==0.13.2
+matplotlib==3.9.2
+soundfile==0.13.1
+pyarrow==17.0.0
+huggingface_hub==0.36.0
+httpx==0.28.1
+wandb==0.23.1

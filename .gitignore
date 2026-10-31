@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv*/
+wandb/
+datasets/
+cache/
+experiments/
+*.pt
+*.ckpt
+*.wav
+*.flac
+*.parquet
+*.zip
+*.tar.gz
