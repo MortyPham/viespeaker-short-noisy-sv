@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/common.py",
+    "sha256": "a5334e8c480454abbf383fd0584b48295d30960d66926080914f214af5ef9d16"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/evaluate_matched.py",
+    "sha256": "ad2b0d3feb96b739990399532cab249c535f4e91bead61acc44bdb198747a996"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/execute_plan.py",
+    "sha256": "e842856c578270f5ecdc17293bea7e24f26fa369db9b54dcdc3ea8c2681d0df8"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/report_results.py",
+    "sha256": "06a4f9da07d2b3b8138dab62ca2106fc9198fff8f6b7851f46913f72717ac7d2"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/train_matched.py",
+    "sha256": "b64de9d25641e424b52cf980745e1cb4f7fb769417da31b9d94ca82502f2256e"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/configs/B_seed2027.json",
+    "sha256": "7e1de1aa99186f5b7ebcb33d279b0badabb374f6e342f0b856b146318255e782"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/configs/B_seed2028.json",
+    "sha256": "ccd118122327d8d79459cca0b4aef10b7046a10e252ba7daf50e3f3d22c06529"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/configs/C_seed2027.json",
+    "sha256": "19a8585ebac69354c19d4e084e133a4dbd6a9bc0682750d0a13aeaf2535c4d7f"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/configs/C_seed2028.json",
+    "sha256": "78cfad5e60a38882ee5a5def11e28e517517f89f46ee395b8a08b068b45ee28f"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/configs/D_seed2027.json",
+    "sha256": "979dfe8a02348b1567f946efeb938d924141da9cc4339f86f6eb26c8e4921fe1"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/configs/D_seed2028.json",
+    "sha256": "98ed17cdc108208041d239d608d806ab4ba9bb7253e5a58e1ce86d9a4aa11548"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/matched/launch_when_idle.sh",
+    "sha256": "ac69841a7cf2f80cda73ccd06695f8fdd49dd6a03594f8042b39d8792da0b271"
+  }
+]

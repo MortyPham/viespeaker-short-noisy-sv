@@ -1,0 +1,98 @@
+[
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/scripts/engine_fixed.py",
+    "sha256": "ce5b34ea27d6b6091feee70bf5166a84f8b0edfc4c3abfb8ec074d785ca9ffb8"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/scripts/qualify_fixed.py",
+    "sha256": "19125fb45b77b039ada11a636df1aed0f17ed5f016c8651c8725e323332f8dc6"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/scripts/monitor.py",
+    "sha256": "4917defd3489c86c55c81008fcd27803c21bd0e37c9ff5220852ce9d74092999"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/scripts/train_fixed.py",
+    "sha256": "bdc0ec57bd8b838fad321e88559ff13d7b1284f18e8954a3819f2f9ae311f4f7"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/scripts/evaluate_fixed.py",
+    "sha256": "bf18646b059db144b05ffc7d66516761ad1ac0a3d1a3cd9d3fb66c98cae7e07b"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/scripts/resume_fixed.py",
+    "sha256": "391c91e4fc3fe0fecf3cd017cdc2e97c8f92c52ce97eec1d41b3c131bbb59642"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/scripts/supervisor_fixed.py",
+    "sha256": "4fa4d525fd58b2d87cb33f7292e30b9474031a567bdaff81ab30f92e7baf424d"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/configs/B_seed2027.json",
+    "sha256": "00703481c17d7ecff2e1eaacf5086a2d0dcf77a923f4259a0c67a373ff5af01f"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/configs/C_seed2027.json",
+    "sha256": "e4d3575a5be43a47f377cd48a0407d876857ef12e6885fb4fa59456cfcd6c966"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/configs/D_seed2027.json",
+    "sha256": "eb007cee42df86ccfc0b10e0c18ab7eb74f46a6424cdfd8a246dc35ce878a516"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/configs/B_seed2028.json",
+    "sha256": "2463311a088f00f519945c0522d68742dc97a2258987755580643218cbb4f6d8"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/configs/C_seed2028.json",
+    "sha256": "e8ba365456fba4f2a26b1cca4619608f04c60285a66c8a65b9e30428e7ed57a6"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/configs/D_seed2028.json",
+    "sha256": "08df726f6042555dd8cf962556e769dc651050467f04a898a7238ce3ff616d77"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/cohort_report.py",
+    "sha256": "d3bd182694c4b408843781ed5bd380810999af671dce120160478f45743599d7"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/PLAN.json",
+    "sha256": "b52f85167d24cc340e04496ef2f46577f89cc5edefa61eb6a8a132922b29e9c8"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/checkpoint_validation_D/result.json",
+    "sha256": "1e8bcb687154b20474443ace752a755a54db0acd58b23f7a12ea89c128a1d97d"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/qualification_staging_2027/EQUIVALENCE_PASS.json",
+    "sha256": "2082df8468d3e6958dcfc347fb7c606478ef36c4703943a4c7ffa7ab9d380d17"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/fixed_capacity_20261108_060219/qualification_staging_2027/PROFILE_PASS.json",
+    "sha256": "ee1fe9b1837b36529286e4a1f49fa83cb9dc189acef7e4a8181ecb3e0417bd18"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/cohort_finish_20261107_211439/TRAIN_RELEASE.json",
+    "sha256": "153454c588f0832a604da0346ba272176dba6e8441f441351b3aa490fc271f37"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/cohort_finish_20261107_211439/matched/qualify_capacity.py",
+    "sha256": "ba2ef81c0d48f2922777084b440f942a9914f8bd1771884277ae470c8fc0174e"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/cohort_finish_20261107_211439/matched/engine.py",
+    "sha256": "8e2a158447c9c55d24814ba707081cab86ec611540ed4081718f1df77e7221c1"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/cohort_finish_20261107_211439/matched/engine_v5.py",
+    "sha256": "559cff1d27301fe35b0cb7b91dbc733210e75aa436a8150eebed0de56af8b0fe"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/cohort_finish_20261107_211439/matched/engine_v3.py",
+    "sha256": "a413ea4517165b8c49a267ad1be9d140295e503e36e9fc6a20f34ef9b5b86f53"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/cohort_finish_20261107_211439/matched/common.py",
+    "sha256": "9e5c30f2ce994e41e01f9b65b75dd5db5ce411341f407da7cff1652d5a0f8ffc"
+  }
+]

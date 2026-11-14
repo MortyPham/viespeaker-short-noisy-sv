@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/queue/supervisor.py",
+    "sha256": "7e75b13de01424163134844396d9a8a65300eecb5d2333f8335dd7e7da5abe90"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/queue/gpu_stages.py",
+    "sha256": "e441cbaebac23afca13f0e209c10b47b403eafdf455c7357585d648047296c5b"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/queue/render_handoff.py",
+    "sha256": "13d0fca2facb5eceb9b52efae57d152250cfb04bca1ba3a949d58d323790e2d9"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/queue/freeze_inputs.py",
+    "sha256": "af03584ee76c56260086da90254656b3b9ae080a1129e9241ea8114e48f15fd4"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/queue/frozen_inputs.json",
+    "sha256": "c155cd6c57b5899324a565544b7580a90c963feaa3600db743bd45038a20ce3f"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/queue/authorization.json",
+    "sha256": "61c873d0fde0ca4309dde4cbc4638100e254bc07274b29b7c0720b2e0e79cdaa"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/queue/source_snapshot.json",
+    "sha256": "dee4c3714e51956686725d1ef4ff40646f74d611dc8e543ef48b56318e6bd6bd"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/prompt4_historical/paired_analysis.py",
+    "sha256": "412f4ad05d78bde52ddb6e7bd3c55ae04b782e5b1cfa5a11dea44f69d81f6983"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/prompt5/calibration.py",
+    "sha256": "dbb7a5dfbd5e67c57a96f0a88fe93311b02ecae8ced188c764591a984ff8f83a"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/overnight_20261106/prompt5/prepared/calibration_config.json",
+    "sha256": "86d7d285fc9aa90845d9745333483543904ef03a0c73e09094b6069e8efe298c"
+  }
+]
