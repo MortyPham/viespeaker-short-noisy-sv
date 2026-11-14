@@ -1,0 +1,128 @@
+{
+  "cohort": "controlled_2027_2028_documented_MUSAN_recipe",
+  "paper_system": "B",
+  "historical_run_hint": "m0_aam_only_full_dataset",
+  "training": {
+    "sample_rate": 16000,
+    "steps": 10000,
+    "speakers_per_batch": 16,
+    "pairs_per_speaker": 2,
+    "num_workers": 2,
+    "long_min_seconds": 2.0,
+    "long_max_seconds": 4.0,
+    "short_min_seconds": 1.0,
+    "short_max_seconds": 1.5,
+    "encoder_lr": 1e-05,
+    "head_lr": 0.001,
+    "weight_decay": 0.0001,
+    "warmup_steps": 500,
+    "gradient_clip": 5.0,
+    "aam_margin": 0.2,
+    "aam_scale": 30.0,
+    "clean_probability": 0.2,
+    "noise_min_db": 0.0,
+    "noise_max_db": 20.0,
+    "validation_enroll_seconds": 3.0,
+    "validation_probe_seconds": 1.25,
+    "validation_enrollments": 5,
+    "validation_calibration": 10,
+    "validation_tests": 10,
+    "validation_noise_db": 10.0,
+    "target_far": 0.05,
+    "validation_enrollment_model": "student",
+    "eval_every": 1000,
+    "pooling_variant": "original",
+    "no_amp": false,
+    "ema_alpha": 0.999,
+    "kl_epsilon": 1e-05,
+    "allow_incomplete_speakers": true,
+    "seed": 2027,
+    "lambda_vector": 0.0,
+    "lambda_kl": 0.0
+  },
+  "initialization": {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/matched_seeds_20261107_0858/initialization/seed2027.pt",
+    "sha256": "d9b65ec5b3be1b6bb47202e59e5e642b2081d4b234941b25eb1c2a51174cb729",
+    "student_tensor_sha256": "6db9b06494d459adbf620bed848cce75e2ffb9f97e0ac72570887ba2c2350c05",
+    "head_tensor_sha256": "f446c6abcbc865cd9811c23ec52f93aa784818f780877629a3b0a0ab52579537"
+  },
+  "pretrained_bundle": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/prompt1_20261106_2153/pretrained_bundle_smoke",
+  "inputs": [
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/experiments/shared/speaker_splits.csv",
+      "sha256": "94ffd8724b779ebcee2d361eedaac78f78ab58f1338ddc6be8c9c9afceb6456a"
+    },
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/experiments/shared/d_full_audio_cache/recordings.csv",
+      "sha256": "6465af5727b64f35a164a6e12b59466e30faa71c570f57103f2de8b291638344"
+    },
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/prompt1_20261106_2153/final/model_registry.json",
+      "sha256": "57daf6b3f5f061ebf71c96cda8e69fd7e3ea7f7ae8cb6184f0b34806991d345b"
+    },
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/concurrent_20261107_160527/matched/preparation/validation_assignments.csv",
+      "sha256": "b37a213aa13043631f6bb86159b27db47bc0e25e3172860fb2f1997ca5da8913"
+    },
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/concurrent_20261107_160527/matched/preparation/populations.json",
+      "sha256": "6599e833a216887df414d69d10ab588332dcd9303252ca71818801c7eeed3788"
+    },
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/concurrent_20261107_160527/matched/preparation/noise_inputs.json",
+      "sha256": "2e2ef29b93ed6651d3fd8fad0be17a0df71170ea72a957346ee47e698cbfe603"
+    },
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/experiments/evaluation/aam_only_full_viespeaker_h_1e1p/final_seed20260818_n5000/fixed_trials.csv",
+      "exists": true,
+      "sha256": "97cd1ff475591682c865a0e50b36e3d78d1f86d8c3f14c6e6ce7b4d8076ac83b",
+      "bytes": 256576
+    },
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/experiments/evaluation/aam_only_full_viespeaker_h_1e1p/final_seed20260818_n5000/scores_aam_only_full.csv",
+      "exists": true,
+      "sha256": "0fe74bc0527f4ee925df95e0f1b69ac42b90e45b743422cf05d5c8b3f911177c",
+      "bytes": 11825306
+    },
+    {
+      "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/concurrent_20261107_160527/matched/preparation/audio_inputs.csv",
+      "sha256": "6a35fb2d012cba031a8219dbc2bb603efdb826641ee88f3ee57f16987e824ef5"
+    }
+  ],
+  "output_dir": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/concurrent_20261107_160527/matched/runs/seed2027/B",
+  "initialization_policy": "Exact current allowlisted A encoder bytes; shared head within seed; no claim these are proven historical initialization bytes",
+  "augmentation_policy": "Documented current historical-family 20% clean /80% MUSAN; uniform0\u201320dB; no RIR. New controlled recipe, not exact historical replay.",
+  "RNG_policy": "Same pair dataset, including unused teacher-side draws for B; item-local NumPy seeds and step-indexed sampler independent of model/global RNG. Separate student-forward torch RNG per update.",
+  "selection_rule": "Minimum10dB noisy-dev EER, student/student, every1000updates, earliest step on exact ties",
+  "inference_roles": "student/student",
+  "test_protocol": {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/experiments/evaluation/aam_only_full_viespeaker_h_1e1p/final_seed20260818_n5000/fixed_trials.csv",
+    "exists": true,
+    "sha256": "97cd1ff475591682c865a0e50b36e3d78d1f86d8c3f14c6e6ce7b4d8076ac83b",
+    "bytes": 256576
+  },
+  "expected_scored_population": {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/experiments/evaluation/aam_only_full_viespeaker_h_1e1p/final_seed20260818_n5000/scores_aam_only_full.csv",
+    "exists": true,
+    "sha256": "0fe74bc0527f4ee925df95e0f1b69ac42b90e45b743422cf05d5c8b3f911177c",
+    "bytes": 11825306
+  },
+  "amp_policy": "FP16 autocast with common initial loss scale1024; abort on overflow rather than silently use a different update/input schedule",
+  "smoke_steps": 5,
+  "checkpoint_every_updates": 1000,
+  "optimizer": {
+    "name": "AdamW",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08
+  },
+  "method_settings": {
+    "ema_alpha": null,
+    "lambda_vector": 0.0,
+    "lambda_kl": 0.0,
+    "kl_epsilon": null
+  },
+  "training_launch_gate": "Priority replay queue inactive, idle GPU, input/init fingerprint checks, actual16x2CUDA smoke passed"
+}

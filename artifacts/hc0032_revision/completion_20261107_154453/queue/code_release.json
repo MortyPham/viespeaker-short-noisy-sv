@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/queue/gpu_stages.py",
+    "sha256": "dc90c4bc1027a5b55babc596b43a7ada00e9aca5a4adb6837805eed6ee47c43d"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/queue/run_stage.py",
+    "sha256": "025d18f95ce931bf0b43c0002d06a03c5ed395109aa81879cc502a90ee8610e8"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/cuda_smoke/smoke.py",
+    "sha256": "c076c272f81bbc8736b04fc8ea3ff17b48225459bca25ba7c6d1a5c2cde3f496"
+  },
+  {
+    "path": "/media/ml4u/Samsung_T52/ptnk_team/mortyhuaphuoc/artifacts/hc0032_revision/completion_20261107_154453/prompt5/calibration.py",
+    "sha256": "ab032e951981325ed37d0cf855a7f14a9b4ff34cd02a38edd8aa0cf6281a0cca"
+  }
+]
