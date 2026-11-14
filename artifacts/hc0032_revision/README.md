@@ -22,13 +22,17 @@ This directory contains the dated source implementations, experiment configurati
 
 The archive contains 168 Python files, five shell launchers, 48 training configurations, and 33 source-hash metadata files. The Python files include 70 snapshots of the original release sources, retained at the locations used by the archived imports and scripts.
 
+## Evaluation protocol
+
+The main README describes the frozen, balanced 5,000-trial sample of VieSpeaker-H used for the 27 duration/noise conditions. This sampled protocol is distinct from evaluation on the full official H trial list. Eligibility exclusions can vary by condition: trials require sufficient voiced duration and usable embeddings on both sides. Compare systems on identical scored trial rows, retaining the trial labels and recording pairs, and report target/nontarget counts and exclusions for each condition.
+
 ## Dependencies and execution
 
 The latest matched-cohort training entry point is [train_recovery.py](amp_recovery_20261108_083452/scripts/train_recovery.py), with six [configurations](amp_recovery_20261108_083452/configs/) for B/C/D and seeds 2027/2028. It imports [engine_recovery_v2.py](amp_recovery_20261108_083452/scripts/engine_recovery_v2.py), which depends on [engine_fixed.py](fixed_capacity_20261108_060219/scripts/engine_fixed.py) and the earlier [matched engine implementations](cohort_finish_20261107_211439/matched/). Other dated variants retain their own dependencies and settings.
 
 Hardcoded lab paths, interpreter paths, initialization/input hashes, and numerical settings are preserved. Review the relevant scripts, configurations, dependencies, and output locations before use elsewhere. Some scripts read files, create output directories, parse arguments, or execute work at import time. Importing them is not a safe substitute for inspecting their source. Launchers and supervisors can start training, inference, or analysis; they are not installation or demonstration commands.
 
-Runtime reproduction of these archived workflows has not been validated. They require inputs and run evidence that are not distributed here:
+Datasets, checkpoints, and generated outputs are excluded from this repository. Some scripts require lab-specific paths and inputs. Runtime reproduction of these archived workflows has not been validated. They require inputs and run evidence that are not distributed here:
 
 - Datasets and audio, speaker splits, recording and trial manifests, and pretrained bundles.
 - Initialization tensors, checkpoints, cached embeddings, and score files.
